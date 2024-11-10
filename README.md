@@ -1,4 +1,4 @@
-# Honeypot Intrusion Detection Project - with AWS
+# Honeypot Intrusion Detection Project - with AWS & T-pot
 
 ## Overview
 This project uses a honeypot setup on an AWS EC2 instance to capture and analyze network attacks, leveraging T-Pot, an open-source honeypot framework. T-Pot collects data from various emulated services like Dionaea, Cowrie, and Suricata, visualized through Kibana. The goal is to observe attack patterns, analyze attacker behaviors, and identify common vulnerabilities.
@@ -8,6 +8,9 @@ This project uses a honeypot setup on an AWS EC2 instance to capture and analyze
 - Capture data on attack attempts, including IP addresses, protocols, and attack vectors.
 - Use visualization and analysis tools to interpret and report on attacker behaviors.
 - Provide recommendations to improve security based on observed attack patterns.
+
+## What is a Honeypot
+- A honeypot is a security tool that mimics a vulnerable system or network to attract cyber attackers, allowing security teams to observe and analyze malicious behavior without risking real assets. By capturing data on attack methods, source IPs, and attempted exploits, honeypots provide valuable insights into threat tactics and can help improve overall security defenses. They are often used in cybersecurity research, threat detection, and intrusion detection systems.
 
 ## Setup Instructions
 
