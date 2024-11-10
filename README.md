@@ -16,13 +16,13 @@ This project uses a honeypot setup on an AWS EC2 instance to capture and analyze
 
 ### 1. AWS Setup
 1. **Instance Configuration**: Launch an EC2 instance in your AWS account.
+   - OS image type: Ubuntu.
    - Recommended instance type: `t2.medium` or higher.
-   - Region: Choose a region close to your location for lower latency.
+   - Keypair: Create new Keypair(use configs in [image](./images/keypair-configs.png)
+).
    - Security Group: Configure to allow inbound traffic on specific honeypot ports (e.g., 22, 80, 445) while restricting access to other critical services.
 
-2. **System Configuration**: Configure firewall and networking settings on the instance to support T-Pot. Ensure UFW (or another firewall) is set up to manage allowed ports.
-
-3. **Access via SSH**:
+2. **Access via SSH**:
    - Download the SSH key file (e.g., `Examplekey.pem`) and set permissions: `chmod 400 Examplekey.pem`.
    - Connect to the instance:
      ```bash
