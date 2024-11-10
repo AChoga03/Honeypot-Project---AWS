@@ -23,10 +23,10 @@ This project uses a honeypot setup on an AWS EC2 instance to capture and analyze
 2. **System Configuration**: Configure firewall and networking settings on the instance to support T-Pot. Ensure UFW (or another firewall) is set up to manage allowed ports.
 
 3. **Access via SSH**:
-   - Download the SSH key file (e.g., `tpotubuntu.pem`) and set permissions: `chmod 400 tpotubuntu.pem`.
+   - Download the SSH key file (e.g., `Examplekey.pem`) and set permissions: `chmod 400 Examplekey.pem`.
    - Connect to the instance:
      ```bash
-     ssh -i "tpotubuntu.pem" ubuntu@<your-ec2-instance-ip>
+     ssh -i "Examplekey.pem" ubuntu@<your-ec2-instance-ip>
      ```
 
 ### 2. T-Pot Setup
