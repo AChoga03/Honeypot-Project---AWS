@@ -36,8 +36,8 @@ This project uses a honeypot setup on an AWS EC2 instance to capture and analyze
   - **Cowrie**: Mimics SSH/Telnet servers to log attacker interactions.
   - **Suricata**: An intrusion detection system capturing network threats.
  
-![Description of Image](![image](https://github.com/user-attachments/assets/3f905b9e-2e61-438d-a9fc-3cd78ead05d8)
-)
+![tpot-home](https://github.com/user-attachments/assets/b6962807-529b-4c4e-9f4a-eb297e1d57bf)
+
 
 
 ![T-Pot Dashboard](./images/tpot-dashboard.png)
