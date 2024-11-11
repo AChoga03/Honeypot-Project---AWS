@@ -18,7 +18,7 @@ This project uses a honeypot setup on an AWS EC2 instance to capture and analyze
 1. **Instance Configuration**: Launch an EC2 instance in your AWS account.
    - OS image type: Ubuntu.
    - Recommended instance type: `t2.medium` or higher.
-   - Keypair: Create new Keypair(use configs in [image](./images/keypair-configs.png)
+   - Keypair: Create new Keypair(use configs in [image](./images/keypair-configs.svg)
 ).
    - Security Group: Configure to allow inbound traffic on specific honeypot ports (e.g., 22, 80, 445) while restricting access to other critical services.
 
