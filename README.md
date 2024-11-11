@@ -1,4 +1,4 @@
-# Honeypot Intrusion Detection Project - with AWS & T-pot
+# Honeypot Intrusion Detection Project --> with AWS & T-pot
 
 ## Overview
 This project uses a honeypot setup on an AWS EC2 instance to capture and analyze network attacks, leveraging T-Pot, an open-source honeypot framework. T-Pot collects data from various emulated services like Dionaea, Cowrie, and Suricata, visualized through Kibana. The goal is to observe attack patterns, analyze attacker behaviors, and identify common vulnerabilities.
@@ -60,13 +60,14 @@ This project uses a honeypot setup on an AWS EC2 instance to capture and analyze
 ![T-Pot Dashboard](https://github.com/user-attachments/assets/34a7b3af-5026-4e4e-996b-b403d5d4b64a)<br/>
 ![T-Pot Dashboard2](https://github.com/user-attachments/assets/e9723bbf-8d92-4417-ab93-0a16831098c8)<br/>
 
-![Attack Map](./images/attack-map.png)
 
 ### Cowrie Dashboard
 - **Brute Force Attempts**: Captures attempted login credentials to analyze common brute-force tactics.
 - **Command Execution**: Logs commands entered by attackers, providing insights into their intent (e.g., file downloads, backdoor installation).
 
-![Cowrie Dashboard](./images/cowrie-dashboard.png)
+![Cowrie Dashboard](https://github.com/user-attachments/assets/3c86425a-4fbb-470f-bced-0d8bb92f7494)<br/>
+![Cowrie Dashboard2](https://github.com/user-attachments/assets/d5681699-9a34-43a3-924a-b274702c2b92)<br/>
+
 
 ## Insights & Security Recommendations
 - Based on observed attack patterns:
