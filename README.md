@@ -39,9 +39,6 @@ This project uses a honeypot setup on an AWS EC2 instance to capture and analyze
 ![tpot-home](https://github.com/user-attachments/assets/b6962807-529b-4c4e-9f4a-eb297e1d57bf)
 
 
-
-![T-Pot Dashboard](https://github.com/user-attachments/assets/34a7b3af-5026-4e4e-996b-b403d5d4b64a)
-
 ### 3. Data Visualization with Kibana
 - **Dashboard & Data Visualization**: Kibana interfaces with T-Pot to provide real-time visualizations of honeypot logs. You can see attack origins, methods, and trends over time.
 - **Queries & Alerts**: Set up queries for common attack sources, protocols, and frequencies, and configure alerts for repeated brute-force attempts or other suspicious activities.
@@ -59,6 +56,9 @@ This project uses a honeypot setup on an AWS EC2 instance to capture and analyze
 - **Attack Frequency & Distribution**: Visualizes daily/weekly attack patterns and highlights peak attack times.
 - **Top Attack Sources**: Shows common IPs and geolocations of attackers.
 - **Targeted Ports & Protocols**: Identifies frequently targeted services and infers attacker goals.
+
+![T-Pot Dashboard](https://github.com/user-attachments/assets/34a7b3af-5026-4e4e-996b-b403d5d4b64a)<br/>
+![T-Pot Dashboard2](https://github.com/user-attachments/assets/e9723bbf-8d92-4417-ab93-0a16831098c8)<br/>
 
 ![Attack Map](./images/attack-map.png)
 
