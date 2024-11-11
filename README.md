@@ -20,7 +20,8 @@ This project uses a honeypot setup on an AWS EC2 instance to capture and analyze
    - Recommended instance type: `t2.medium` or higher.
    - Keypair: Create new Keypair(use configs in [image](https://github.com/user-attachments/assets/a4145240-f91e-451f-94e0-a7549960a259)
 ).
-   - Security Group: Configure to allow inbound traffic on specific honeypot ports (e.g., 22, 80, 445) while restricting access to other critical services.
+   - Network Settings: Configure Network settings to Allow SSH traffic from Your IP Address (use configs in [image](https://github.com/user-attachments/assets/00a970c1-ad2e-4d6e-a8bb-9af41013a78c)
+).
 
 2. **Access via SSH**:
    - Download the SSH key file (e.g., `Examplekey.pem`) and set permissions: `chmod 400 Examplekey.pem`.
@@ -35,15 +36,13 @@ This project uses a honeypot setup on an AWS EC2 instance to capture and analyze
   - **Dionaea**: Emulates vulnerabilities for capturing malware.
   - **Cowrie**: Mimics SSH/Telnet servers to log attacker interactions.
   - **Suricata**: An intrusion detection system capturing network threats.
+  - etc...
  
-![tpot-home](https://github.com/user-attachments/assets/b6962807-529b-4c4e-9f4a-eb297e1d57bf)
-
+![tpot-home](https://github.com/user-attachments/assets/9e1ed22d-d00b-40ca-8d7f-f6432162e9cb)
 
 ### 3. Data Visualization with Kibana
 - **Dashboard & Data Visualization**: Kibana interfaces with T-Pot to provide real-time visualizations of honeypot logs. You can see attack origins, methods, and trends over time.
 - **Queries & Alerts**: Set up queries for common attack sources, protocols, and frequencies, and configure alerts for repeated brute-force attempts or other suspicious activities.
-
-![Kibana Dashboard](./images/kibana-dashboard.png)
 
 ### 4. Analysis Tools
 - **CyberChef**: Analyze data transformations, including decoding payloads or viewing suspicious file contents.
