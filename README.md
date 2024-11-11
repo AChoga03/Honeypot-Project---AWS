@@ -40,7 +40,7 @@ This project uses a honeypot setup on an AWS EC2 instance to capture and analyze
 
 
 
-![T-Pot Dashboard](./images/tpot-dashboard.png)
+![T-Pot Dashboard](./images/tpot-dashboard.svg = 400x400)
 
 ### 3. Data Visualization with Kibana
 - **Dashboard & Data Visualization**: Kibana interfaces with T-Pot to provide real-time visualizations of honeypot logs. You can see attack origins, methods, and trends over time.
