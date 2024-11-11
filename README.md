@@ -80,8 +80,7 @@ For more detailed installation instructions and configurations, refer to the off
 
 6. **Access T-pot website**:
    - Next get to the T-pot website via port 64297 (https://ip-address:64297), use same IP address on Instance page.
-   - Now sign in using the username and password from the T-pot installation process(![image](https://github.com/user-attachments/assets/bca288d2-d245-463a-9aa6-75daa84dbe41)
-)
+   - Now sign in using the username and password from the T-pot installation process ![image](https://github.com/user-attachments/assets/bca288d2-d245-463a-9aa6-75daa84dbe41)
      
 ### 2. T-Pot Use
 - **Introduction**: T-Pot is an all-in-one honeypot platform that runs multiple honeypots in Docker containers. It captures attacks on common protocols and provides a Kibana dashboard for data visualization.
