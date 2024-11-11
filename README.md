@@ -75,12 +75,13 @@ After rebooting, T-Pot should be fully installed and configured on your EC2 inst
 For more detailed installation instructions and configurations, refer to the official [T-Pot GitHub repository](https://github.com/telekom-security/tpotce?tab=readme-ov-file#get-and-install-t-pot).
 
 5. **Security & Firewall configuration**:
-   - Now navigate to Security Groups and Edit Inbound Rules then set these parameters(view [image](https://github.com/user-attachments/assets/432c8dd8-0e25-4d57-bfa6-e64d07f8abe3)
-).
+   - Now navigate to Security Groups and Edit Inbound Rules then set these parameters.
+   
+   ![image](https://github.com/user-attachments/assets/432c8dd8-0e25-4d57-bfa6-e64d07f8abe3)
 
 6. **Access T-pot website**:
    - Next get to the T-pot website via port 64297 (https://ip-address:64297), use same IP address on Instance page.
-   - Now sign in using the username and password from the T-pot installation process ![image](https://github.com/user-attachments/assets/bca288d2-d245-463a-9aa6-75daa84dbe41)
+   - Now sign in using the username and password from the T-pot installation process (view [image](https://github.com/user-attachments/assets/bca288d2-d245-463a-9aa6-75daa84dbe41)).
      
 ### 2. T-Pot Use
 - **Introduction**: T-Pot is an all-in-one honeypot platform that runs multiple honeypots in Docker containers. It captures attacks on common protocols and provides a Kibana dashboard for data visualization.
