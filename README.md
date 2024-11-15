@@ -169,6 +169,14 @@ For more detailed installation instructions and configurations, refer to the off
 ![Cowrie Dashboard](https://github.com/user-attachments/assets/3c86425a-4fbb-470f-bced-0d8bb92f7494)<br/>
 ![Cowrie Dashboard2](https://github.com/user-attachments/assets/d5681699-9a34-43a3-924a-b274702c2b92)<br/>
 
+### Furthur Analysis Video Tutorial
+
+I created a video that demonstrates how to:
+- Perform further analysis on the **Cowrie** and **Suricata** dashboards.
+- Use **CyberChef** for data analysis.
+- Conduct an **SSH attack** on the honeypot using **Hydra** on Kali Linux.
+
+ [![Video Tutorial](https://img.youtube.com/vi/IEQkkmymamc/0.jpg)](https://youtu.be/IEQkkmymamc?si=74XcGGnmzZgnEF4j)
 
 ## Insights & Security Recommendations
 - Based on observed attack patterns:
