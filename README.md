@@ -176,8 +176,8 @@ I created a video that demonstrates how to:
 - Use **CyberChef** for data analysis.
 - Conduct an **SSH attack** on the honeypot using **Hydra** on Kali Linux.
 
- [![Watch the Video][image](https://github.com/user-attachments/assets/b477db6d-af00-4a6e-ad47-faa8f63cd07c)
-](https://youtu.be/IEQkkmymamc)
+ [![Watch the Video](https://github.com/user-attachments/assets/b477db6d-af00-4a6e-ad47-faa8f63cd07c)](https://youtu.be/IEQkkmymamc)
+
 
 
 ## Insights & Security Recommendations
